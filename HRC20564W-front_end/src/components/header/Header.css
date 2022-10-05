@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: #2a4050;
+  padding: 1rem 1rem 3rem 1rem;
+  height: 12vh;
+}
+
+.companylogo {
+  align-self: flex-start;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: #253b4a;
+  padding: 1.5rem 1rem;
+  flex-wrap: wrap;
+  height: 12vh;
+}

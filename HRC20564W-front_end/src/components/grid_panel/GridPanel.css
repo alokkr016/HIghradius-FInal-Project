@@ -1,0 +1,3 @@
+.MuiTableSortLabel-root.MuiTableSortLabel-active.MuiTableSortLabel-root.MuiTableSortLabel-active .MuiTableSortLabel-icon{
+    filter: invert(100%) sepia(100%);
+}
